@@ -1,0 +1,338 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    bio2 (AVX512, FMA3, 503 GB RAM)
+Command: iqtree2 -s CHS alin.fas
+Seed:    137877 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov 16 16:20:47 2024
+Kernel:  AVX+FMA - 1 threads (104 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 104 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file CHS alin.fas ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 196 sequences with 3372 columns, 2560 distinct patterns
+1947 parsimony-informative, 507 singleton sites, 918 constant sites
+                                        Gap/Ambiguity  Composition  p-value
+   1  Mycolicibacterium_smegmatis              87.22%    failed      0.01%
+   2  Aphanomyces_euteiches                    76.22%    passed     16.30%
+   3  Ostrinia_furnacalis                      53.62%    passed     39.91%
+   4  Aliivibrio_fischeri                      87.04%    passed     17.55%
+   5  Thalassiosira_rotula                     64.68%    failed      0.00%
+   6  Musicola_paradisiaca                     81.38%    failed      0.00%
+   7  Dickeya_parazeae                         81.49%    failed      0.00%
+   8  Saprolegnia_monoica                      73.01%    passed     76.71%
+   9  Clostridium_perfringens                  86.18%    failed      0.00%
+  10  Pythium_aphanidermatum                   73.28%    passed     80.05%
+  11  Pectobacterium_parmentieri               82.59%    failed      0.00%
+  12  Cotesia_sesamiae                         83.90%    failed      0.02%
+  13  Paramecium_bursaria_Chlorella_virus      84.37%    passed     24.49%
+  14  Acanthocystis_turfacea_Chlorella_virus   84.37%    passed     51.12%
+  15  Phytophthora_nicotianae                  72.92%    passed     86.74%
+  16  Raoultella_ornithinolytica               88.40%    passed     12.57%
+  17  Bradyrhizobium_japonicum                 85.62%    failed      0.00%
+  18  Phytophthora_infestans                   72.92%    passed     82.28%
+  19  Phytophthora_sojae                       72.92%    passed     51.49%
+  20  Vibrio_mediterranei                      88.40%    passed     47.73%
+  21  Paraclostridium_sordellii                86.03%    failed      0.00%
+  22  Bradyrhizobium_diazoefficiens            85.62%    failed      0.00%
+  23  Streptomyces_laurentii                   96.17%    failed      0.00%
+  24  Lysobacter_enzymogenes                   87.96%    failed      0.00%
+  25  Streptomyces_graminofaciens              77.46%    failed      0.00%
+  26  Clostridium_butyricum                    88.23%    passed      8.10%
+  27  Streptococcus_oralis                     87.63%    passed      8.27%
+  28  Geobacter_sp.                            86.12%    failed      0.05%
+  29  Paraburkholderia_terrae                  87.99%    passed     48.95%
+  30  Christensenellaceae_bacterium            87.25%    passed     11.35%
+  31  Flavobacterium_sp.                       85.74%    passed     16.01%
+  32  Flagellimonas_marinaquae                 85.79%    passed      8.67%
+  33  Desulfoferula_mesophila                  86.21%    failed      0.00%
+  34  Seminavis_robusta                        76.60%    passed     23.49%
+  35  Mytilus_coruscus                         30.16%    failed      0.00%
+  36  Mytilus_edulis                           70.31%    passed     27.37%
+  37  Funneliformis_caledonium                 75.03%    passed      7.22%
+  38  Ambispora_leptoticha                     78.11%    passed     52.89%
+  39  Funneliformis_mosseae                    75.06%    passed     10.78%
+  40  Xyrichtys_novacula                       62.63%    passed      9.54%
+  41  Elizabethkingia_anophelis                66.61%    failed      0.00%
+  42  Plasmopara_halstedii                     72.92%    passed     37.82%
+  43  Romboutsia_hominis                       85.88%    failed      0.00%
+  44  Stigmatella_aurantiaca                   87.69%    failed      3.74%
+  45  Vibrio_antiquarius                       87.43%    failed      4.35%
+  46  Flavobacteriales_bacterium               85.97%    failed      0.75%
+  47  Phaeodactylum_tricornutum                72.33%    failed      0.30%
+  48  Vibrio_parahaemolyticus                  87.01%    failed      1.06%
+  49  Streptomyces_ipomoeae                    77.94%    failed      0.00%
+  50  Streptomyces_turgidiscabies              75.86%    failed      0.00%
+  51  Fistulifera_solaris                      65.57%    failed      0.00%
+  52  Myxococcus_virescens                     86.54%    failed      0.03%
+  53  Sphingobacterium_faecium                 85.74%    passed     46.80%
+  54  Myxococcus_fulvus                        87.66%    failed      0.04%
+  55  Mycolicibacterium_agri                   87.07%    failed      0.00%
+  56  Saccharomyces_cerevisiae                 71.44%    passed     30.40%
+  57  Belliella_aquatica                       85.79%    passed      8.50%
+  58  Marivirga_lumbricoides                   85.11%    passed      7.73%
+  59  Flavobacterium_orientale                 85.17%    passed     18.77%
+  60  Maribacter_cobaltidurans                 85.88%    passed      9.08%
+  61  Chishuiella_changwenlii                  87.37%    passed     39.59%
+  62  Christiangramia_forsetii                 86.09%    passed     11.10%
+  63  Croceivirga_lutea                        85.91%    passed     19.26%
+  64  Pilimelia_anulata                        86.12%    failed      0.00%
+  65  Pilimelia_terevasa                       86.00%    failed      0.00%
+  66  Actinomadura_cremea                      86.57%    failed      0.00%
+  67  Salegentibacter_mishustinae              86.24%    passed      5.33%
+  68  Aquimarina_muelleri                      86.98%    failed      1.92%
+  69  Algibacter_mikhailovii                   86.24%    failed      2.76%
+  70  Mongoliitalea_lutea                      85.74%    passed     21.60%
+  71  Comamonas_sp.                            87.63%    failed      0.89%
+  72  Vibrio_cholerae                          88.11%    passed     66.94%
+  73  Actinoplanes_nipponensis                 85.41%    failed      0.00%
+  74  Sphaerisporangium_krabiense              87.19%    failed      0.00%
+  75  Flavobacterium_collinsii                 85.65%    passed     15.65%
+  76  Paenibacillus_macerans                   87.87%    passed     17.21%
+  77  Pleodorina_starrii                       86.24%    failed      0.30%
+  78  Actinoallomurus_iriomotensis             87.01%    failed      0.00%
+  79  Ipomoea_batatas                          93.36%    passed      6.10%
+  80  Tetraselmis_sp.                          79.60%    failed      0.00%
+  81  Anthurium_amnicola                       75.24%    passed     16.84%
+  82  Gossypium_australe                       77.97%    failed      0.00%
+  83  Phytophthora_fragariae                   72.92%    passed     33.25%
+  84  Phytophthora_rubi                        72.92%    passed     35.70%
+  85  Mortierella_alpina                       74.79%    passed      8.46%
+  86  Gamsiella_multidivaricata                75.50%    passed     40.64%
+  87  Phytophthora_cactorum                    72.92%    passed     77.86%
+  88  Phytophthora_idaei                       72.92%    passed     78.86%
+  89  Neocallimastix_sp.                       77.82%    failed      1.46%
+  90  Phytophthora_cinnamomi                   72.92%    passed     41.82%
+  91  Nitzschia_inconspicua                    72.84%    passed      9.61%
+  92  Phytophthora_pseudosyringae              72.86%    passed     78.42%
+  93  Phytophthora_boehmeriae                  72.92%    passed     39.45%
+  94  Aphanomyces_cochlioides                  71.47%    failed      1.99%
+  95  Phytophthora_ramorum                     72.92%    passed     86.81%
+  96  Umbelopsis_sp.                           73.78%    passed     12.32%
+  97  Dermatophagoides_pteronyssinus           43.95%    failed      0.00%
+  98  Bulinus_truncatus                        62.25%    failed      0.02%
+  99  Fragilaria_crotonensis                   74.35%    failed      1.65%
+ 100  Pisum_sativum                            86.36%    passed     40.27%
+ 101  Geranomyces_variabilis                   76.48%    passed     32.29%
+ 102  Cladochytrium_replicatum                 77.22%    passed     27.01%
+ 103  Globomyces_pollinis-pini                 76.72%    passed     26.12%
+ 104  Phlyctochytrium_arcticum                 76.28%    passed     31.11%
+ 105  Gaertneriomyces_semiglobifer             73.58%    failed      0.43%
+ 106  Paraphysoderma_sedebokerense             77.08%    passed     15.62%
+ 107  Obelidium_mucronatum                     62.07%    failed      0.00%
+ 108  Zopfochytrium_polystomum                 77.97%    passed     63.28%
+ 109  Globomyces_sp.                           65.57%    failed      0.14%
+ 110  Irineochytrium_annulatum                 72.69%    failed      1.72%
+ 111  Gaertneriomyces_sp.                      73.55%    failed      0.34%
+ 112  Dinochytrium_kinnereticum                76.57%    passed     29.29%
+ 113  Terramyces_sp.                           75.18%    passed     48.95%
+ 114  Borealophlyctis_nickersoniae             77.46%    passed     17.61%
+ 115  Kappamyces_sp.                           76.81%    passed     47.22%
+ 116  Blyttiomyces_sp.                         70.52%    failed      2.11%
+ 117  Skeletonema_marinoi                      72.39%    failed      0.11%
+ 118  Phytophthora_citrophthora                68.77%    passed     41.18%
+ 119  Brugia_pahangi                           71.29%    passed     16.81%
+ 120  Huso_huso                                84.73%    passed     63.43%
+ 121  Trichinella_pseudospiralis               51.63%    failed      0.09%
+ 122  Vibrio_sp.                               88.40%    passed     26.50%
+ 123  Clostridium_sp.                          86.09%    failed      0.00%
+ 124  Gossypium_arboreum                       94.72%    failed      1.55%
+ 125  Terrisporobacter_othiniensis             85.94%    failed      0.00%
+ 126  Photobacterium_phosphoreum               88.43%    passed     19.07%
+ 127  Photobacterium_kishitanii                88.43%    passed      5.80%
+ 128  Trichinella_zimbabwensis                 51.16%    failed      0.44%
+ 129  Mycobacterium_sp.                        87.81%    failed      0.00%
+ 130  Enterovibrio_coralii                     88.43%    failed      1.89%
+ 131  Synechococcus_sp.                        85.26%    failed      1.35%
+ 132  Photobacterium_jeanii                    88.43%    passed     57.10%
+ 133  Vibrio_rumoiensis                        88.43%    passed     21.68%
+ 134  Enterovibrio_norvegicus                  88.40%    passed     92.16%
+ 135  Smittium_culicis                         72.21%    failed      1.60%
+ 136  Corchorus_capsularis                     94.90%    failed      4.84%
+ 137  Achlya_hypogyna                          73.22%    passed     58.72%
+ 138  Thraustotheca_clavata                    75.50%    passed     10.16%
+ 139  Basidiobolus_meristosporus               76.16%    passed     42.72%
+ 140  Paraclostridium_bifermentans             86.09%    failed      0.00%
+ 141  Piromyces_sp.                            74.35%    failed      0.00%
+ 142  Danaus_plexippus_plexippus               57.15%    passed      5.17%
+ 143  Vibrio_coralliilyticus                   88.40%    passed     26.38%
+ 144  Rhizophagus_irregularis                  79.09%    passed      9.17%
+ 145  Vibrio_splendidus                        88.43%    passed     10.96%
+ 146  Phytophthora_palmivora                   72.63%    passed     69.48%
+ 147  Clostridium_liquoris                     94.13%    failed      1.80%
+ 148  Chlorella_sorokiniana                    69.34%    passed      6.68%
+ 149  Micractinium_conductrix                  69.51%    passed      6.84%
+ 150  Actinidia_chinensis_var._chinensis       96.80%    passed     29.16%
+ 151  Photobacterium_lipolyticum               88.43%    passed     44.05%
+ 152  Saprolegnia_parasitica                   74.94%    passed     34.71%
+ 153  Rhizophagus_diaphanus                    74.29%    failed      0.00%
+ 154  Glomus_cerebriforme                      77.97%    passed     10.56%
+ 155  Dimargaris_cristalligena                 75.56%    passed     20.69%
+ 156  Marinomonas_spartinae                    81.61%    failed      0.00%
+ 157  Lysinibacillus_sp.                       89.95%    passed     19.78%
+ 158  Pseudomonas_cichorii                     81.44%    failed      0.01%
+ 159  Mytilus_galloprovincialis                79.92%    passed     26.72%
+ 160  Trifolium_repens                         88.11%    failed      0.19%
+ 161  Picochlorum_sp.                          69.87%    failed      3.56%
+ 162  Caenorhabditis_briggsae                  60.88%    passed     12.71%
+ 163  Magallana_gigas                          51.87%    failed      0.60%
+ 164  Oryzias_melastigma                       68.98%    failed      0.01%
+ 165  Mastacembelus_armatus                    61.77%    passed     68.56%
+ 166  Larimichthys_crocea                      65.36%    passed     49.23%
+ 167  Xiphophorus_couchianus                   65.42%    failed      1.19%
+ 168  Sparus_aurata                            61.95%    passed      5.31%
+ 169  Synchytrium_microbalum                   71.59%    failed      0.00%
+ 170  Xiphophorus_hellerii                     64.92%    failed      1.89%
+ 171  Cyclopterus_lumpus                       79.98%    passed     17.31%
+ 172  Oreochromis_aureus                       66.22%    failed      0.02%
+ 173  Gasterosteus_aculeatus_aculeatus         62.49%    passed     19.04%
+ 174  Gambusia_affinis                         66.96%    failed      1.76%
+ 175  Thunnus_albacares                        64.74%    passed     13.39%
+ 176  Ostrea_edulis                            46.06%    failed      0.00%
+ 177  Epinephelus_fuscoguttatus                62.10%    passed     10.39%
+ 178  Epinephelus_moara                        63.11%    passed     58.29%
+ 179  Lates_calcarifer                         76.01%    passed     11.31%
+ 180  Mytilus_californianus                    50.21%    failed      0.00%
+ 181  Dreissena_polymorpha                     57.06%    passed     10.30%
+ 182  Magallana_angulata                       51.87%    failed      0.56%
+ 183  Mya_arenaria                             62.63%    failed      0.00%
+ 184  Fimicolochytrium_jonesii                 76.96%    passed     16.77%
+ 185  Mercenaria_mercenaria                    64.62%    passed      5.42%
+ 186  Synchiropus_splendidus                   62.04%    passed     16.59%
+ 187  Triplophysa_rosa                         72.15%    passed     24.86%
+ 188  Acipenser_ruthenus                       79.72%    passed     29.30%
+ 189  Ylistrum_balloti                         46.71%    failed      0.11%
+ 190  Labrus_mixtus                            61.60%    passed     11.33%
+ 191  Danaus_plexippus                         54.86%    passed      5.24%
+ 192  Lethenteron_reissneri                    75.39%    failed      1.50%
+ 193  Saccostrea_cucullata                     50.15%    failed      0.21%
+ 194  Mytilus_trossulus                        59.02%    failed      3.16%
+ 195  Argopecten_irradians                     47.39%    failed      0.02%
+ 196  Fadolivirus_algeromassiliense            73.61%    failed      0.00%
+WARNING: 191 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                    76.45%  88 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.995 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -223631.534
+2. Current log-likelihood: -223630.471
+Optimal log-likelihood: -223630.106
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 1.037
+Parameters optimization took 2 rounds (11.172 sec)
+Time for fast ML tree search: 104.071 seconds
+
+NOTE: ModelFinder requires 781 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 3372) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            231654.702   389 464087.403   464189.154   466469.352
+  2  LG+I          231654.518   390 464089.036   464191.344   466477.108
+  3  LG+G4         223648.752   390 448077.503   448179.811   450465.575
+  4  LG+I+G4       223648.723   391 448079.447   448182.314   450473.642
+  5  LG+R2         225348.852   391 451479.705   451582.572   453873.900
+  6  LG+R3         223739.421   393 448264.841   448368.832   450671.283
+  7  LG+R4         223201.398   395 447192.796   447297.917   449611.484
+  8  LG+R5         222970.598   397 446735.197   446841.455   449166.132
+  9  LG+R6         222870.432   399 446538.864   446646.267   448982.046
+ 10  LG+R7         222847.044   401 446496.088   446604.642   448951.516
+WARNING: Log-likelihood -222934 of LG+R8 worse than LG+R7 -222847
+ 11  LG+R8         222933.916   403 446673.832   446783.544   449141.506
+ 23  LG+F+R7       222811.244   420 446462.488   446582.325   449034.258
+ 36  WAG+R7        223289.168   401 447380.337   447488.890   449835.765
+ 49  WAG+F+R7      222809.085   420 446458.170   446578.007   449029.940
+ 62  JTT+R7        223735.070   401 448272.139   448380.693   450727.567
+ 75  JTT+F+R7      223418.060   420 447676.121   447795.958   450247.891
+ 88  Q.pfam+R7     222699.822   401 446201.645   446310.198   448657.072
+101  Q.pfam+F+R7   222699.273   420 446238.545   446358.383   448810.315
+114  Q.bird+R7     227049.558   401 454901.116   455009.669   457356.544
+127  Q.bird+F+R7   226714.159   420 454268.317   454388.155   456840.087
+140  Q.mammal+R7   225981.776   401 452765.552   452874.106   455220.980
+153  Q.mammal+F+R7 225465.333   420 451770.666   451890.503   454342.435
+166  Q.insect+R7   223554.211   401 447910.422   448018.975   450365.850
+179  Q.insect+F+R7 223250.582   420 447341.163   447461.001   449912.933
+192  Q.plant+R7    224497.645   401 449797.290   449905.843   452252.718
+205  Q.plant+F+R7  224456.285   420 449752.570   449872.408   452324.340
+218  Q.yeast+R7    223722.934   401 448247.869   448356.422   450703.297
+231  Q.yeast+F+R7  222937.030   420 446714.060   446833.897   449285.830
+244  JTTDCMut+R7   223783.369   401 448368.738   448477.291   450824.165
+257  JTTDCMut+F+R7 223445.201   420 447730.402   447850.239   450302.172
+270  DCMut+R7      226262.721   401 453327.442   453435.996   455782.870
+283  DCMut+F+R7    224315.881   420 449471.761   449591.599   452043.531
+296  VT+R7         222747.172   401 446296.343   446404.897   448751.771
+309  VT+F+R7       222685.121   420 446210.241   446330.079   448782.011
+322  PMB+R7        223515.369   401 447832.737   447941.291   450288.165
+335  PMB+F+R7      223510.971   420 447861.943   447981.780   450433.713
+348  Blosum62+R7   223531.233   401 447864.466   447973.019   450319.894
+361  Blosum62+F+R7 223457.874   420 447755.747   447875.584   450327.517
+374  Dayhoff+R7    226269.453   401 453340.906   453449.459   455796.333
+387  Dayhoff+F+R7  224320.743   420 449481.486   449601.323   452053.256
+400  mtREV+R7      233053.906   401 466909.811   467018.365   469365.239
+413  mtREV+F+R7    225994.075   420 452828.150   452947.987   455399.919
+426  mtART+R7      235672.232   401 472146.464   472255.017   474601.892
+439  mtART+F+R7    228077.902   420 456995.804   457115.642   459567.574
+452  mtZOA+R7      231032.748   401 462867.495   462976.049   465322.923
+465  mtZOA+F+R7    225452.604   420 451745.207   451865.045   454316.977
+478  mtMet+R7      232592.465   401 465986.929   466095.483   468442.357
+491  mtMet+F+R7    225310.134   420 451460.267   451580.105   454032.037
+504  mtVer+R7      235224.824   401 471251.647   471360.201   473707.075
+517  mtVer+F+R7    227951.878   420 456743.755   456863.592   459315.525
+530  mtInv+R7      233778.993   401 468359.987   468468.540   470815.415
+543  mtInv+F+R7    224018.311   420 448876.623   448996.460   451448.393
+556  mtMAM+R7      238158.553   401 477119.106   477227.660   479574.534
+569  mtMAM+F+R7    230514.701   420 461869.401   461989.239   464441.171
+582  HIVb+R7       228118.497   401 457038.994   457147.547   459494.422
+595  HIVb+F+R7     227087.256   420 455014.512   455134.350   457586.282
+608  HIVw+R7       235405.462   401 471612.925   471721.478   474068.353
+621  HIVw+F+R7     230875.330   420 462590.660   462710.498   465162.430
+634  FLU+R7        227412.056   401 455626.112   455734.665   458081.540
+647  FLU+F+R7      226248.592   420 453337.184   453457.021   455908.953
+660  rtREV+R7      225136.449   401 451074.897   451183.451   453530.325
+673  rtREV+F+R7    223728.281   420 448296.562   448416.399   450868.332
+686  cpREV+R7      224149.920   401 449101.840   449210.394   451557.268
+699  cpREV+F+R7    223763.217   420 448366.435   448486.272   450938.205
+Akaike Information Criterion:           Q.pfam+R7
+Corrected Akaike Information Criterion: Q.pfam+R7
+Bayesian Information Criterion:         Q.pfam+R7
+Best-fit model: Q.pfam+R7 chosen according to BIC
+
+All model information printed to CHS alin.fas.model.gz
+CPU time for ModelFinder: 28550.461 seconds (7h:55m:50s)
+Wall-clock time for ModelFinder: 28614.009 seconds (7h:56m:54s)
+
+NOTE: 546 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -222699.822
+Optimal log-likelihood: -222699.738
+Site proportion and rates:  (0.040,0.054) (0.061,0.157) (0.075,0.274) (0.134,0.445) (0.181,0.711) (0.303,1.144) (0.205,2.111)
+Parameters optimization took 1 rounds (27.910 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 10.843750 sec (of wall-clock time) 10.837780 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.003890 sec (of wall-clock time) 0.007559 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -224653.991
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 59.132 second
+Computing log-likelihood of 98 initial trees ... 512.880 seconds
+Current best score: -222699.738
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -222695.312
+Iteration 10 / LogL: -222831.434 / Time: 0h:28m:19s
+Iteration 20 / LogL: -222798.209 / Time: 0h:41m:53s
+Finish initializing candidate tree set (20)
+Current best tree score: -222695.312 / CPU time: 2367.575
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
